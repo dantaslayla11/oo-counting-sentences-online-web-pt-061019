@@ -16,6 +16,6 @@ self.end_with?("!")
 
   def count_sentences
 self.strip.split(/\w[?!.]/).length
-self.count(".")
+
   end
 end
