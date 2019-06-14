@@ -15,7 +15,8 @@ self.end_with?("!")
   end
 
   def count_sentences
-self.strip.split(/\w[?!.]/).length
+sentence_count = txt.split(/\.|\?|!/).length
+puts sentence_count
 
   end
 end
